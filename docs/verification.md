@@ -1,5 +1,7 @@
 # Verification
 
+A 24-second 1280×720 H.264 clip was recorded from the real Studio plugin at 30 fps. It shows the Crystal Mine baseline, the cost-growth change from 1.16 to 1.13, exact chart values and the JSON editor. The modeled goal moves from 23m21s to 11m17s; this is a simulation result, not live player analytics. Selected frames were visually reviewed.
+
 Local validation uses official Luau 0.747 and Rojo 7.7.0 on Windows.
 
 ## Automated checks

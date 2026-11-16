@@ -2,6 +2,10 @@
 
 Model a Roblox progression loop, change an assumption, and see what happens to the wait.
 
+![BalanceLab progression comparison](media/preview.jpg)
+
+[Watch the Studio demo](https://github.com/Ggaming5005/BalanceLab/releases/download/v0.1.0/BalanceLab-demo.mp4).
+
 BalanceLab is a small Luau simulation library and native Studio plugin. It follows one currency through earning, upgrades and a milestone, or through repeated rolls toward a loot target. Pin a baseline, edit the config, and compare the resulting timeline.
 
 ## Install
@@ -15,6 +19,8 @@ Download the assets from [Releases](https://github.com/Ggaming5005/BalanceLab/re
 | `BalanceLab-demo.mp4` | Short demonstration |
 
 Insert the plugin asset into a temporary place, select its root Script, and choose **Save as Local Plugin**. Delete the inserted copy. Open **Plugins → BalanceLab**.
+
+For the library examples below, insert `BalanceLab.rbxm` into `ReplicatedStorage` and name the ModuleScript `BalanceLab`. The plugin contains its own copy and does not require this runtime installation.
 
 Choose Crystal Mine, Factory Tycoon or Pet Hatchery. The first run becomes the baseline. Edit a field, click **Run comparison**, then inspect the chart. **Pin current baseline** establishes the next comparison. Switching presets starts a fresh comparison.
 
